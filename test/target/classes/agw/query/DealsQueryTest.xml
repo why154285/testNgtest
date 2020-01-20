@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DealsQueryTest" >
+    <test name="getDealsQuery">
+        <classes>
+            <!--<class name="com.orientsec.test.suite.SuiteConfig"/>-->
+            <parameter name = "Name" value ="fa"/>
+            <parameter name = "Age" value ="23"/>
+            <class name="com.orientsec.test.agw.query.DealsQueryTest"/>
+        </classes>
+    </test>
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+</suite>

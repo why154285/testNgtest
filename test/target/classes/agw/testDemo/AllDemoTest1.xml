@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DealsQueryTest"  parallel="tests" thread-count="2" >
+    <test name="dealsQueryCsvTest">
+        <classes>
+            <class name="com.orientsec.test.testDemo.DealsQueryCsvTest"/>
+        </classes>
+    </test>
+    <test name="dealsQueryJsonTest">
+        <classes>
+            <class name="com.orientsec.test.testDemo.DealsQueryJsonTest"/>
+        </classes>
+    </test>
+    <test name="dealsQueryXmlTest">
+        <classes>
+            <class name="com.orientsec.test.testDemo.DealsQueryXmlTest"/>
+        </classes>
+    </test>
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DealsQueryTest">
+    <test name="getDealsQuery">
+        <packages>
+            <package name="com.orientsec.test.testDemo.*">
+            </package>
+        </packages>
+    </test>
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+</suite>
