@@ -12,6 +12,7 @@
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.orientsec.test.tool.ExtentTestNGIReporterListener"/>
     </listeners>
 
 </suite>
